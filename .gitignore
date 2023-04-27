@@ -1,2 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
 .env
-__pycahe__
+venv/
+env/
+ENV/
+env.bak/
+*.sqlite3
+*.pyc
+*.log
+
+# IDE settings
+.idea/
+.vscode/
