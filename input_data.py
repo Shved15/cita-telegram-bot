@@ -1,3 +1,8 @@
-nie = "Z0265169F"
-nombre = "Maxim Shikhovtsov"
-age = 1998
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+NIE = os.getenv('NIE')
+NOMBRE = os.getenv('NOMBRE')
+AGE = os.getenv('AGE')

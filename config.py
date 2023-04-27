@@ -1,2 +1,7 @@
-TOKEN_API = "6017635800:AAHd03Ytadb78QNo6CoHmvx9ItxPcI_sWm8"
-TOKEN_API_2 = "6167453251:AAFAFTHBNBrbg4zNEYTFRzYlwyC4SCbQnS0"
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+TOKEN = os.getenv('MY_TOKEN')
+API_KEY = os.getenv('MY_API_KEY')
